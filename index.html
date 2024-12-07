@@ -3,27 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Name - Portfolio</title>
+  <title>Art Project</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #ffffff;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      width: 80%;
+      max-width: 800px;
+      aspect-ratio: 1 / 1; /* Keeps the display area square */
+      position: relative;
+      border: 2px solid #000;
+      background-color: #f7f7f7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Your Name</h1>
-    <p>Multidisciplinary Artist | Researcher | Educator</p>
-  </header>
-  <section>
-    <h2>Projects</h2>
-    <ul>
-      <li><a href="project1-link">Project 1</a></li>
-      <li><a href="project2-link">Project 2</a></li>
-      <li><a href="project3-link">Project 3</a></li>
-    </ul>
-  </section>
-  <section>
-    <h2>About Me</h2>
-    <p>Write a short bio here about yourself.</p>
-  </section>
-  <footer>
-    <p>Contact: your-email@example.com</p>
-  </footer>
+  <div class="container">
+    <!-- Embed Google Maps Street View -->
+    <iframe 
+      src="<iframe src="https://www.google.com/maps/embed?pb=!4v1733614251711!6m8!1m7!1sMDA470EWTY1YXP1h4lFsuw!2m2!1d19.57010607983965!2d-99.25268476051704!3f254.9605533304947!4f-7.1922795469961756!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>>
+    </iframe>
+  </div>
 </body>
 </html>
